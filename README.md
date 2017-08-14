@@ -1,8 +1,8 @@
-# Tools for Handling Blind Sampling of Sub-groups of Iterest
+# Tools for Handling Blind Sampling of Sub-groups of Interest
 
 ## Background
 
-Ideally, when a survey sampling problem is concerned with a particular subpopulation, that group can be oversampled or only-sampled. But sometimes we cannot identify who is in the subpopulation at the time the sample is drawn. In these cases there will invevitably be some amount of waste collecting unnecessary data. This repo includes various tools for simulations and estimates tied to hypothetical subgroups making up various proportions of the population (e.g., 1%, 5%, 10%, etc.). I hope these tools will be useful for explaining these problems and for planning blind samples with the minimum of wasted sample.
+Ideally, when a survey sampling problem is concerned with a particular subpopulation, that group can be oversampled or only-sampled. But sometimes we cannot identify who is in the subpopulation at the time the sample is drawn. In these cases there will invevitably be some amount of waste collecting unnecessary data. This repo includes various tools for simulations and estimates tied to hypothetical subgroups making up various proportions of the population (e.g., 1%, 5%, 10%, etc.). I hope these tools will be useful for explaining these problems and for planning blind samples with the minimum of wasted data collection.
 
 ## samplex.js
 
@@ -31,5 +31,8 @@ Settings can be checked or edited with:
 
 - `settings(*setting*, *value*) will update the specified setting to *value*.
 
-## sampro.py
+## samplex.py
+
+- `jprob(x, n, p, N)`
+
 
